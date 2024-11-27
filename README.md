@@ -13,6 +13,14 @@ A Python application that converts PDF documents into audiobooks effortlessly. T
 - 🚨 **Error Handling**: Informative messages for invalid inputs or errors.
 
 ---
+## Demo 🎥
+
+Below is a demonstration of how the application works:
+
+![Demo of PDF to Audiobook](demo.gif)
+
+---
+
 
 
 ## Prerequisites 📋
@@ -81,6 +89,7 @@ This project uses the following Python libraries:
 📦 pdf-to-audiobook
 ├── MP3/                  # MP3 files folder
 ├── pdf_files/            # Pdf files folder
+├── demo.gif              # Demo of the application
 ├── main.py               # Main application file
 ├── requirements.txt      # List of dependencies
 └── README.md             # Project documentation
@@ -121,5 +130,4 @@ Contributions are welcome! Follow these steps to contribute:
 
 - **Your Name**  
   GitHub: [@KushalRegmi](https://github.com/KushalRegmi61)  
-
 
