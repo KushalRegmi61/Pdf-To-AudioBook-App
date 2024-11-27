@@ -62,7 +62,7 @@ class PdfToAudiobook:
 
     #TODO: function to convert the pdf to audio
     def upload_pdf(self):
-        self.file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")], initialdir="/home/mr-kush/python/DAY_91_Pdf-To-Audiobook")  # getting the file path
+        self.file_path = filedialog.askopenfilename(filetypes=[("PDF files", "*.pdf")])  # getting the file path
         if not self.file_path:
             messagebox.showerror("Error", "No file selected")  # error message if no file is selected
         else:
@@ -166,7 +166,7 @@ class PdfToAudiobook:
                 self.audio_path = filedialog.asksaveasfilename(
                     defaultextension=".mp3",
                     filetypes=[("MP3 files", "*.mp3")],
-                    initialdir="~/python/DAY_91_Pdf-To-Audiobook/Mp3",
+                    initialdir="~/PROJECTS/PDF-TO-AUDIOBOOK",
                     title="Save Audio File"
                 )
 
@@ -228,3 +228,4 @@ class PdfToAudiobook:
 
 
 
+PdfToAudiobook() # creating the object of the PdfToAudiobook class
